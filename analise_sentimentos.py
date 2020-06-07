@@ -36,7 +36,7 @@ class AnaliseSentimentos:
         tokens = self.__nlp(texto)
         #Identifica as entidades
         retorno['entidades'] = tokens.ents
-        print(self.__dicionario['odiar'])
+        
         #Avalia as polaridades das palavras
         for token in tokens:
             #Normaliza o texto
